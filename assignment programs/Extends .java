@@ -17,7 +17,7 @@ class Demo implements I2 {
     }
 }
 
-public class Main {
+public class Extends {
     public static void main(String[] args) {
 
         Demo d = new Demo();
