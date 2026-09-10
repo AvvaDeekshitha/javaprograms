@@ -17,7 +17,7 @@ class Parrot implements Animal, Bird {
     }
 }
 
-public class Main {
+public class Mainprogram {
     public static void main(String[] args) {
 
         Parrot p = new Parrot();
