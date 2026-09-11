@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 class Substring {
-    
+    static String findLongest(String str) {
 
         Scanner sc = new Scanner(System.in);
 
