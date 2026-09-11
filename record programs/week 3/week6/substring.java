@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 class Substring {
-    public static void main(String[] args) {
+    
 
         Scanner sc = new Scanner(System.in);
 
@@ -36,3 +36,14 @@ class Substring {
         System.out.println("String = " + longest);
     }
 }
+public static void main(String[] args) {
+ Scanner sc = new Scanner(System.in);
+ System.out.print("Enter a string: ");
+ String str = sc.nextLine();
+ String longest = findLongest(str);
+ System.out.println("Length: " + longest.length());
+ System.out.println("Longest substring: " + longest);
+ sc.close();
+ }
+}
+
