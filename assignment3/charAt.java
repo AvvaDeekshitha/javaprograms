@@ -3,4 +3,4 @@ class charAt {
         String s = "Java";
         System.out.println("Character = " + s.charAt(2));
     }
-}
+} 
